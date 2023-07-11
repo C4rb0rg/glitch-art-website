@@ -1,75 +1,77 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    padding: 20px;
-  }
-  
-  .container {
-    text-align: center;
-  }
-  
-  h1 {
-    color: #333;
-    margin-bottom: 40px;
-  }
-  
-  .image-container {
-    position: relative;
-    margin-bottom: 40px;
-  }
-  
-  #original-image, #glitched-image {
-    max-width: 500px;
-    height: auto;
-    border: 1px solid #ccc;
-  }
-  
-  #glitched-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-  
-  button {
-    padding: 10px 20px;
-    font-size: 16px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #555;
-  }
-  
-  form {
-    margin-top: 40px;
-  }
-  
-  h2 {
-    margin-bottom: 10px;
-  }
-  
-  input[type="email"], button[type="submit"] {
-    padding: 10px;
-    font-size: 14px;
-  }
-  
-  input[type="email"] {
-    width: 250px;
-    margin-right: 10px;
-  }
-  
-  button[type="submit"] {
-    background-color: #333;
-    color: #fff;
-    border: none;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #555;
-  }
-  
+  font-family: "Poppins", sans-serif;
+  background-color: #000;
+  background-image: url("Eminem-head-rotating-8-bit-pixelation.gif");
+  background-repeat: repeat;
+  background-size: cover;
+  padding: 20px;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.image-container {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+#image {
+  max-width: 500px;
+  height: auto;
+  border: 1px solid #fff;
+  margin: 0 auto;
+  display: block;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  background-color: #8cec43;
+  color: #000000;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #20ba3c;
+  color: #000000;
+  font-weight: bold
+}
+
+form {
+  margin-top: 40px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+input[type="email"], button[type="submit"] {
+  padding: 10px;
+  font-size: 14px;
+}
+
+input[type="email"] {
+  width: 250px;
+  margin-right: 10px;
+}
+
+button[type="submit"] {
+  background-color: ##8cec43;
+  color: #fff;
+  border: none;
+}
+
+button[type="submit"]:hover {
+  background-color: #20ba3c;
+}

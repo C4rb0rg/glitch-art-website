@@ -1,13 +1,11 @@
 document.getElementById("generate-button").addEventListener("click", function() {
-    var originalImage = document.getElementById("original-image");
-    var glitchedImage = document.getElementById("glitched-image");
+    var image = document.getElementById("image");
   
     // Logic to generate glitched image
     // ...
   
-    // Set glitched image source and show it
-    glitchedImage.src = "My-photo-for-the-socials-_1_-reverb.png";
-    glitchedImage.style.opacity = 1;
+    // Set glitched image source
+    image.src = "My-photo-for-the-socials-_1_-reverb.png";
   });
   
   document.getElementById("email-form").addEventListener("submit", function(event) {
