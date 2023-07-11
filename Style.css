@@ -67,8 +67,8 @@ input[type="email"] {
 }
 
 button[type="submit"] {
-  background-color: ##8cec43;
-  color: #fff;
+  background-color: #8cec43;
+  color: #000000;
   border: none;
 }
 
