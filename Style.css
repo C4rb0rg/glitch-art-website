@@ -1,77 +1,71 @@
 body {
-  font-family: "Minecraft", sans-serif;
+  font-family: "VT323", monospace;
   background-color: #000;
-  background-image: url("Eminem-head-rotating-8-bit-pixelation.gif");
-  background-repeat: repeat;
-  background-size: cover;
   padding: 20px;
   color: #fff;
 }
 
 .container {
-  text-align: center;
+  position: relative;
 }
 
-h1 {
-  font-weight: bold;
-  font-size: 50px;
-  margin-bottom: 40px;
+h1#title {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
 }
 
 .image-container {
-  position: relative;
-  margin-bottom: 40px;
+  float: right;
+  margin-left: 20px;
 }
 
 #image {
   max-width: 500px;
   height: auto;
   border: 1px solid #fff;
-  margin: 0 auto;
-  display: block;
+}
+
+.form-container {
+  float: left;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 button {
   padding: 10px 20px;
   font-size: 16px;
-  font-weight: bold;
-  border: 1px solid #000000;
-  border-radius: 20px;
-  background-color: #8cec43;
-  color: #000000;
+  font-family: "VT323", monospace;
+  background-color: #00ff00;
+  color: #000;
+  border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #20ba3c;
-  color: #000000;
-  font-weight: bold
+  background-color: #00cc00;
 }
 
-form {
-  margin-top: 40px;
+#email-box {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
 }
 
-h2 {
-  margin-bottom: 10px;
-}
-
-input[type="email"], button[type="submit"] {
+#email-box input[type="email"] {
   padding: 10px;
   font-size: 14px;
-}
-
-input[type="email"] {
   width: 250px;
-  margin-right: 10px;
+  margin-top: 10px;
 }
 
-button[type="submit"] {
-  background-color: #8cec43;
-  color: #000000;
-  border: none;
-}
-
-button[type="submit"]:hover {
-  background-color: #20ba3c;
+.show-email-box #email-box {
+  max-height: 40px;
 }

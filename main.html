@@ -3,19 +3,23 @@
 <head>
   <title>Glitch Image Generator</title>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="container">
-    <h1>Glitch Image Generator</h1>
+    <h1 id="title">Glitch Image Generator</h1>
     <div class="image-container">
       <img id="image" src="My-photo-for-the-socials-_1_.png" alt="Image">
     </div>
-    <button id="generate-button">Generate</button>
-    <form id="email-form">
-      <h2>Send Glitched Image to Email</h2>
-      <input type="email" id="email-input" placeholder="Your Email Address">
-      <button type="submit">Send</button>
-    </form>
+    <div class="form-container">
+      <div class="form-group">
+        <button id="send-button">Send</button>
+        <div id="email-box">
+          <input type="email" id="email-input" placeholder="Your Email Address">
+        </div>
+      </div>
+      <button id="generate-button">Generate Glitch</button>
+    </div>
   </div>
 
   <script src="script.js"></script>
