@@ -3,22 +3,22 @@
 <head>
   <title>Glitch Image Generator</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="container">
+  <div class="topbar">
     <h1 id="title">Glitch Image Generator</h1>
-    <div class="image-container">
-      <img id="image" src="My-photo-for-the-socials-_1_.png" alt="Image">
-    </div>
     <div class="form-container">
       <div class="form-group">
+        <input type="email" id="email-input" placeholder="Enter your email">
         <button id="send-button">Send</button>
-        <div id="email-box">
-          <input type="email" id="email-input" placeholder="Your Email Address">
-        </div>
+        <button id="reset-button">Reset</button>
       </div>
       <button id="generate-button">Generate Glitch</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="image-container">
+      <img id="image" src="My-photo-for-the-socials-_1_.png" alt="Image">
     </div>
   </div>
 
